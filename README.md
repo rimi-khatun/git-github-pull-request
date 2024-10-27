@@ -31,7 +31,17 @@ To github.com:mir-owahed/git-github-pull-request.git
  * [new branch]      git-pr -> git-pr
 Branch 'git-pr' set up to track remote branch 'git-pr' from 'origin'.
 ```
-
+### Git PR
+```
+git branch
+  247  git checkout -b git-pr-test
+  248  git branch
+  249  git add .
+  250  git commit -m "markdown syntax added"
+  251  git push
+  252  git push --set-upstream origin git-pr-test
+  
+```
 
 
 
