@@ -14,6 +14,21 @@ How to contribute open source / How To Pull Request
   247  git branch
   248  git log
 ```
+You can update into new branch
+
+```
+250  git status
+  251  git add .
+  252  git commit -m "git PR step by step guide added"
+  253  git remote -v
+  254  git push -u origin git-pr
+```
+remote: Create a pull request for 'git-pr' on GitHub by visiting:
+remote:      https://github.com/mir-owahed/git-github-pull-request/pull/new/git-pr
+remote: 
+To github.com:mir-owahed/git-github-pull-request.git
+ * [new branch]      git-pr -> git-pr
+Branch 'git-pr' set up to track remote branch 'git-pr' from 'origin'.
 
 
 
